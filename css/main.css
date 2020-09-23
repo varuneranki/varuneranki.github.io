@@ -1,0 +1,65 @@
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+        
+}
+
+h1, h4 {
+	font-family: 'Pacifico', cursive;
+	color: #0f0f0f;
+	letter-spacing: 1px;
+	text-shadow: 1px 2px #ffffff;
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.fifi{
+	display: hidden;
+	height:10px;
+	
+}
+.form-area {
+	width: 1000px;
+}
+
+.form-area > div {
+	display: flex;
+	flex-wrap: wrap;
+}
+.form-area input {
+  	border-radius: 5px;
+  	font-size: 20px;
+  	padding: 10px;
+
+  	width: 400px
+	
+  	
+}
+
+.form-area textarea {
+	border-radius: 5px;
+  	font-size: 20px;
+  	padding: 10px;
+  	height: 180px;
+  	width: 400px;
+ 	margin-top: 0px;
+}
+
